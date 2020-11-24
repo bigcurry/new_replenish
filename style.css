@@ -1,0 +1,100 @@
+body {
+    background: #f4f1de;
+    font-family: 'Lato', sans-serif;
+    color: #0c0c0c;
+    text-align: center;
+}
+
+form {
+    width: 450px;
+    margin: 5% auto;
+}
+
+.header {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: none;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.iconDetails {
+    margin-left: 2%;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+#email {
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+#submit {
+    width: 25%;
+    height: 46px;
+    background: #e76f51;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#submit:hover {
+    background: #e76f51;
+}
+
+input:focus {
+    outline: none;
+    outline: 2px solid #2a9d8f;
+    box-shadow: 0 0 2px #2a9d8f;
+}
